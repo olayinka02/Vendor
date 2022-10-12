@@ -38,10 +38,7 @@ const Info = [
 
 export default function SaveAds() {
     const [data, setData] = useState(Info)
-
-
-
-
+    
     return (
         <FlatList style={{ marginTop: 9, }} data={data} numColumns={1} keyExtractor={(item) => item.name} renderItem={({ item }) => {
             return (
